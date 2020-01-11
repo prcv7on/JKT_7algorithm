@@ -66,8 +66,6 @@ int main()
 	//}
 	//printf("\n");
 
-
-	//qsort(a,10,sizeof(int),cmp);
 	printf("\n");
 	system("pause");
 
