@@ -15,7 +15,6 @@ void moveZeroes(int* nums, int sz) {
 			++j;
 		}
 	}
-
 }
 
 
@@ -28,7 +27,6 @@ int main()
 	for (int i = 0; i < 2; ++i) {
 		printf("%d ", a[i]);
 	}
-
 
 	printf("\n");
 	system("pause");
