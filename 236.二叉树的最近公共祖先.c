@@ -13,18 +13,7 @@
  *     struct TreeNode *right;
  * };
  */
-// typedef struct TreeNode TN;
-// TN* lowestCommonAncestor(TN* root, TN* p, TN* q) {
-//     if (!root || root == p || root == q) {
-//         return root;
-//     }
-//     TN* left  = lowestCommonAncestor(root->left, p, q);
-//     TN* right = lowestCommonAncestor(root->right, p, q);
-//     if (left && right) {
-//         return root;
-//     }
-//     return left ? left : right;
-// }
+
 // @lc code=end
 
 
@@ -85,8 +74,6 @@ TN* lowestCommonAncestor(TN* root, TN* p, TN* q) {
         root = path1[i];
     }
     return root;
-
-
 }
 
 
