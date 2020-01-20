@@ -1,2 +1,2 @@
-# JKT_7algorithm
+# JKT_数据结构与算法_C
 JKT  算法入门练习
