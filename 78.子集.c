@@ -37,18 +37,6 @@ int** subsets(int* a, int asz, int* bsz, int** csz) {
 #include <stdio.h>
 #include <stdlib.h>
 
-// int S = nums.size();
-// int N = 1 << S;
-// vector<vector<int> > res;
-// for (int i = 0; i < N; ++i) {
-//     vector<int> v;
-//     for (int j = 0; j < S; ++j)
-//         if (i & (1 << j))
-//             v.push_back(nums[j]);
-//     res.push_back(v);
-// }
-// return res;
-
 int** subsets(int* a, int asz, int* bsz, int** csz) {
     *bsz = 1<<asz;
     int** res=(int**)malloc(*bsz * sizeof(int*));
