@@ -7,14 +7,6 @@
 // @lc code=start
 
 
-// int cmp(const void* a,const void* b) {
-//     return *(int*)a - *(int*)b;
-// }
-
-// int majorityElement(int* a, int sz){
-//     qsort(a,sz,sizeof(int),cmp);
-//     return a[sz/2];
-// }
 
 
 // @lc code=end
@@ -33,7 +25,7 @@
 //     return a[sz/2];
 // }
 
-//Boyer-Moore ????
+//Boyer-Moore 
 int majorityElement(int* a, int sz) {
     int cnt=1,maj=a[0];
     for (int i=1;i<sz;++i) {
